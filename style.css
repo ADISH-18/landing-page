@@ -1,0 +1,73 @@
+nav {
+    background-color: rgb(62, 0, 65);
+    background-size: cover;
+    color: white;
+    width: 100%;
+    display: flex;
+    padding: 45px 15px;
+    margin: -10px px;
+    border-color: rgb(255, 42, 0);
+    border-width: 2px;
+    border-style: solid;
+}
+h4{
+    position:sticky;
+    text-align: center;
+}
+nav h1 {
+    padding-left: 40px;
+}
+
+h1,
+h5 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1,
+ul,
+li,
+button {
+    display: inline;
+}
+
+ul {
+    margin-left: 30%;
+}
+
+li {
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+li a {
+    color: white;
+
+}
+
+button {
+    border-radius: 15px;
+    width: 90px;
+    padding: 5px;
+    background-color: rgb(11, 165, 0);
+}
+
+button:hover {
+    background-color: rgb(255, 29, 29);
+}
+
+li:hover {
+    color: grey;
+}
+
+.glass {
+    background: linear-gradient(135deg, rgba(21, 7, 7, 0.804), rgb(238, 23, 23));
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+p {
+    margin: 100px;
+    justify-content: center;
+    text-align: justify;
+}
